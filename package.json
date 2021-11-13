@@ -21,10 +21,8 @@
         "zinit-ices": {
             "bgn": {
                 "requires": "cp;tar;bgn",
-                "plugin": "zsh-bin",
                 "from": "gh-r",
                 "bpick": "*.tar.gz",
-                "git": "",
                 "lucid": "",
                 "as": "null",
                 "sbin": "bin/zsh*",
@@ -35,7 +33,6 @@
             },
             "default": {
                 "requires": "cp",
-                "plugin": "zsh-bin",
                 "lucid": "",
                 "git": "",
                 "depth": "1",
@@ -47,7 +44,6 @@
             },
             "rootless": {
                 "requires": "cp",
-                "plugin": "zsh-bin",
                 "lucid": "",
                 "git": "",
                 "depth": "1",
