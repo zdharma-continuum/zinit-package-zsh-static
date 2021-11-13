@@ -23,6 +23,7 @@
                 "requires": "cp",
                 "plugin": "zsh-static",
                 "from": "gh-r",
+                "bpick": "*.tar.gz",
                 "git": "",
                 "lucid": "",
                 "as": "null",
