@@ -3,7 +3,7 @@
     "_id": "zsh-static@6.1.0",
     "_spec": "zsh-static@^6.1.0",
     "name": "zsh-static",
-    "description": " Statically-linked, hermetic, relocatable Zsh",
+    "description": "Statically-linked, hermetic, relocatable ZSH",
     "version": "6.1.0",
     "homepage": "https://github.com/romkatv/zsh-bin",
     "bugs": {
@@ -21,7 +21,7 @@
         "zinit-ices": {
             "default": {
                 "requires": "cp",
-                "plugin": "zsh-static",
+                "plugin": "zsh-bin",
                 "from": "gh-r",
                 "bpick": "*.tar.gz",
                 "git": "",
