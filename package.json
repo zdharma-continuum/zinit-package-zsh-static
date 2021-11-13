@@ -47,7 +47,7 @@
             },
             "rootless": {
                 "requires": "cp",
-                "plugin": "zsh-bin",
+                "plugin": "zsh-bin2",
                 "lucid": "",
                 "git": "",
                 "depth": "1",
