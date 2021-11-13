@@ -21,7 +21,7 @@
         "zinit-ices": {
             "default": {
                 "requires": "cp;rm",
-                "from": "ghr",
+                "from": "gh-r",
                 "git": "",
                 "lucid": "",
                 "as": "null",
