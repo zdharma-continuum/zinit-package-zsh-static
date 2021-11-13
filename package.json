@@ -39,10 +39,10 @@
                 "lucid": "",
                 "git": "",
                 "as": "null",
-                "atclone": "sh -c '$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh-bin/master/install)' -s -e yes -d /usr/local",
-                "atpull": "%atclone",
                 "nocompile": "",
-                "nocompletions": ""
+                "nocompletions": "",
+                "atclone": "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh-bin/master/install\" -s -e yes -d /usr/local",
+                "atpull": "%atclone"
             }
         }
     }
