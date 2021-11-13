@@ -10,8 +10,6 @@ zinit pack for zsh-static
 
 ## Default Profile
 
-Builds and installs the newest Zsh (HEAD of the Git repository).
-
 The Zinit command that'll be run will be equivalent to:
 
 ```zsh
