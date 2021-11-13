@@ -19,7 +19,7 @@
             "plugin": "zsh-bin"
         },
         "zinit-ices": {
-            "default": {
+            "bgn": {
                 "requires": "cp;tar;bgn",
                 "plugin": "zsh-bin",
                 "from": "gh-r",
@@ -29,6 +29,16 @@
                 "as": "null",
                 "sbin": "bin/zsh*",
                 "atclone": "",
+                "atpull": "%atclone",
+                "nocompile": "",
+                "nocompletions": ""
+            },
+            "default": {
+                "requires": "cp;tar",
+                "plugin": "zsh-bin",
+                "lucid": "",
+                "as": "null",
+                "atclone": "sh -c '$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh-bin/master/install)' -s -e yes -d /usr/local",
                 "atpull": "%atclone",
                 "nocompile": "",
                 "nocompletions": ""
