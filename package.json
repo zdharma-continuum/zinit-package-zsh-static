@@ -20,7 +20,7 @@
         },
         "zinit-ices": {
             "default": {
-                "requires": "cp;tar",
+                "requires": "cp;tar;bgn",
                 "plugin": "zsh-bin",
                 "from": "gh-r",
                 "bpick": "*.tar.gz",
