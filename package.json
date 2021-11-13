@@ -20,7 +20,8 @@
         },
         "zinit-ices": {
             "default": {
-                "requires": "cp;rm",
+                "requires": "cp",
+                "plugin": "zsh-static",
                 "from": "gh-r",
                 "git": "",
                 "lucid": "",
@@ -29,7 +30,7 @@
                 "atclone": "",
                 "atpull": "%atclone",
                 "nocompile": "",
-                "nocompletions": "",
+                "nocompletions": ""
             }
         }
     }
